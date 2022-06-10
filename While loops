@@ -1,0 +1,18 @@
+contador = 0;
+soma = 0;
+
+while contador < 10:
+    idade = int(input('Informe a idade do usuário: '))
+    contador += 1
+    soma += idade
+
+media = soma / 10
+print(soma)
+print(idade)
+
+if media <= 18:
+    print(f"A média de idades dos usuários é igual a {media}, sendo caracterizada como uma população jovem.")
+elif 18 < media <= 58:
+    print(f"A média de idades dos usuários é igual a {media}, sendo caracterizada como uma população adulta.")
+else:
+    print(f"A média de idades dos usuários é igual a {media}, sendo caracterizada como uma população idosa."
