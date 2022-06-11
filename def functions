@@ -1,0 +1,29 @@
+def somapares(n1,n2):
+    if n1 > n2:
+        par = n1
+    else:
+        par = n2
+
+    print(f'O maior entre os dois números pares é {par}')
+    return par
+
+def somaimpares(n1, n2):
+
+    if n1 > n2:
+        impar = n1
+    else:
+        impar = n2
+
+    print(f'O maior entre os dois números impares é {impar}')
+    return impar
+
+
+n1p = float(input('Informe um número par: '))
+n2p = float(input('Informe outro número par: '))
+n1i = float(input('Informe um número impar: '))
+n2i = float(input('Informe outro número impar: '))
+
+
+soma = somapares(n1p, n2p) + somaimpares(n1i, n2i)
+print(f'A soma entre os dois maiores dos 4 números digitados é {soma}')
+
