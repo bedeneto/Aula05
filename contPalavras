@@ -1,0 +1,8 @@
+def contPalavras(frase):
+    txt = frase.replace(' ', '')
+    print(len(txt))
+    return txt
+
+texto = input("Escreva uma frase ou uma palavra: ")
+txt = contPalavras(texto)
+print(f'A frase ou palavra contém {len(txt)} caracteres.')
