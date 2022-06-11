@@ -1,0 +1,10 @@
+def numero(n1):
+    i = 0
+    for m in range(0, n1+1):
+        i += m
+    print(i)
+    return i
+
+n = int(input('Informe um número inteiro e positivo: '))
+i = numero(n)
+
